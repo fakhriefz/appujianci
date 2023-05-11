@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
@@ -8,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.111.3">
-    <title>Starter Template · Bootstrap v5.3</title>
+    <title>Starter Template Â· Bootstrap v5.3</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/starter-template/">
 
@@ -37,14 +36,18 @@
       <div class="col-md-6">
         <h2 class="text-body-emphasis">Form Input Data</h2>
         <p>Masukan data yang akan di proses</p>
-        <form>
+        <form method="post" action="">
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Nama</label>
-                <input type="text" class="form-control" id="nama" aria-describedby="nama">
+                <input type="text" pattern="[a-zA-Z]*" class="form-control" id="nama" name="nama" aria-describedby="nama" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">NIM</label>
+                <input type="text" class="form-control" id="nim" name="nim" aria-describedby="NIM" required>
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Umur</label>
-                <input type="number" class="form-control" id="umur">
+                <input type="number" class="form-control" id="umur" name="umur" required>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
