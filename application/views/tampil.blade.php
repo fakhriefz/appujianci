@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
@@ -7,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.111.3">
-    <title>Starter Template Â· Bootstrap v5.3</title>
+    <title>Starter Template · Bootstrap v5.3</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/starter-template/">
 
@@ -35,8 +36,8 @@
     <div class="row g-5">
       <div class="col-md-6">
         <h2 class="text-body-emphasis">Tampil Input Data</h2>
-        <p>Nama : {{ $nama }}</p>
-        <p>NIM : {{ $nim }}</p>
+        <p>Nama : {{ $nama  }}</p>
+        <p>Nim : {{ $nim }}</p>
         <p>Umur : {{ $umur }}</p>
         <p>Status : {{ $status }}</p>
       </div>
